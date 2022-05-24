@@ -1,0 +1,44 @@
+@media only screen and (max-width: 768px) { 
+    #para { 
+        color: white; 
+        background-color: black;
+    }
+}
+
+.navbar {
+    border: 1px solid black;
+    height: 50px;
+    background-image: url("https://images.unsplash.com/photo-1565357253897-79d691886a73?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170");
+}
+
+.ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 15px;
+}
+
+a { 
+     text-decoration: none;
+     display: flex;
+     color: white;  
+     font-size: 25px; 
+}
+
+.body {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.img1 {
+    display: flex;
+}
+
+.title { 
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Amatic SC';
+} 
