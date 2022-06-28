@@ -1,0 +1,16 @@
+* { 
+    background-color: lightblue;
+}
+
+input { 
+    margin: 10px
+}
+
+button { 
+    margin: 10px
+}
+
+.todo { 
+    display: flex;
+    justify-content: center;
+}
