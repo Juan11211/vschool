@@ -1,0 +1,63 @@
+{
+	"appitizers": [
+        {
+			"name": "Mozzerella Sticks",
+				"ingridents": ["Mozzerella Cheese", "Scallions", "Dipping Sauce"],
+				"Description": "Deep Fried Mozzerella Cheese, topped off with green scallions and served with a side of dipping sauce of your choice."
+		},
+		{
+			"name": "Boneless Wings",
+				"ingridents": ["boneless chicken chunk", "celery sticks", "blue cheese"],
+				"description": "Boneless Wings covered in sauce of your choice. You can choose from simple bbq sauce or our freshly homemade honey mustard sauce"
+			}
+		
+	], 
+    "coldSandwiches": [ 
+        {
+            "name": "Turkey Bacon Avocado",
+            "ingridents":["Mosquitto Turkey", "lettuce", "sliced tomato", "avocado", "bacon", "pretzel bread"   ], 
+            "description": "Our famous Turkey Avocado comes in a freshly baked pretzel bread, served with applewood smoked bacon"
+        }, 
+        { 
+            "name": "Italian Combo", 
+            "ingridents": ["Salami", "Pepperroni", "Provolone", "Italian bread", "lettuce"],
+            "description": "Our Italian combo has a little spice to it."      
+        }
+    ], 
+    "hotSandwiches": [ 
+        { 
+           "name": "Cheeseburger",
+           "ingridents": ["Beef burger", "white bun", "lettuce", "slice tomatoes"],
+           "descri[tion": "Our beef burger comes with a fresh meat patty"
+        }, 
+        { 
+            "name": "Philly Cheese Steak",
+            "ingridents": ["Peppers", "Onions", "Steak", "PepperJack Cheese"],
+            "descri[tion": "Our philly cheese steaks would have you feeling like you're in Philly!"
+        }
+    ], 
+    "Desserts": [ 
+     { 
+         "name": "Ice cream Sunday",
+         "ingridents": ["Banana, Vanilla ice cream", "cherriers"], 
+         "descri[tion": "Our ice cream sunday is a delisious treat for the whole family to enjoy."
+     }, 
+     {
+        "name": "lava cake",
+        "ingridents": ["Chcoclate", "Fudge"],
+        "descri[tion": "leaves your mouth filled with amazing rich chocolate"
+     } 
+    ], 
+    "Drinks": [ 
+        { 
+            "name": "Pepsi",
+            "ingridents": ["Soda", "Ice"],
+            "description": "Bubbly soda"
+        }, 
+        {
+            "name": "Water", 
+            "ingridents": ["Spring Water", "ice"], 
+            "description": "Best water in the whole country"
+        }
+    ]
+}

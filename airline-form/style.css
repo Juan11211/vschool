@@ -1,0 +1,23 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.passenger { 
+    padding: 10px 10px 10px 10px;
+}
+
+.gender { 
+    padding: 10px 10px 10px 10px;
+} 
+
+.destination { padding: 10px 10px 10px 10px; 
+}
+
+.diet { 
+    padding: 10px 10px 10px 10px;
+}
+
+.fill { 
+    color: purple;
+}

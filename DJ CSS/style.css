@@ -1,0 +1,80 @@
+* { 
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.box1 {
+    border: 2px solid black;
+    transition: background-color 1s linear 1s, width 1s linear 1s, color 1s linear 1s;
+
+}
+
+.box1:hover {
+    background-color: firebrick;
+    width: 300px;
+    color: blue
+}
+
+.box2 {
+    border: 2px solid rgb(163, 140, 140);
+    transition: background-color 1s linear 1s, height 1s linear 1s, width 1s linear 1s, padding-left 1s linear 1s, height 1s linear 1s;
+}
+
+.box2:hover {
+    background-color: hotpink;
+    height: auto;
+    width: 400px;
+    padding-left: 80px;
+}
+
+.box3 {
+    border: 2px solid black;
+    transition: background-color 1s linear 1s, border-radius 1s linear 1s, width 1s linear 1s, display 1s linear 1s, justify-center 1s linear 1s, color 1s linear 1s    ;
+}
+
+.box3:hover {
+    background-color: olive;
+    border-radius: 30%;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.box4 {
+    border: 2px solid black;
+    transition: background-color 1s linear 1s, opacity 1s linear 1s, color 1s linear 1s;
+}
+
+.box4:hover {
+    background-color: orange;
+    opacity: 0.5;
+    color: purple; 
+
+}
+
+.box5 {
+    border: 2px solid black;
+    transition: background-color 1s linear 1s, padding 1s linear 1s, display 1s linear 1s, justify-content 1s linear 1s, color 1s linear 1s;
+}
+
+.box5:hover {
+    background-color: lightblue;
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   color: chocolate;
+}
+
+.box6{
+    border: 2px solid black;
+    transition: background-color 1s linear 1s, opacity 1s linear 1s, border-radius 1s linear 1s, display 1s linear 1s, justify-content 1s linear 1s;
+}
+
+.box6:hover {
+    background-color: peachpuff;
+    opacity: 0.1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+} 

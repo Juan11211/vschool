@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel Form</title>
+    <link rel="Stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "header">
+        <h1 class="welcome">Welcome to Coding Airlines!</h1>
+        <h3 class="fill">Fill out the form below:</h3>
+    </div>
+    <form name = "form">
+        <div class = "form-container">
+            <div class= "passenger">Passenger: 
+                <input class= "input" name= "firstName" type= "text" placeholder= "first name" required>
+                <input class= "input" name= "lastName" type= "text" placeholder= "last name" required>
+                <input class= "input" name= "age" type= "number" placeholder="age" required>
+            </div>
+            <div class= "gender">Gender:
+                <label><input class= "input" name= "gender" type="radio" value= "male" required>Male</label>
+                <label><input class= "input" name= "gender" type="radio" value= "female" required>Female</label>
+            </div>
+            <div class= "destination">Destination: 
+                <select name= "destination" class= "dropdown">
+                    <option value= "LAX">Los Angeles</option>
+                    <option value= "NYC">New York City</option>
+                    <option value= "FL">Florida</option>
+                    <option value= "DR">Dominican Republic</option>
+                </select>
+            </div>
+            <div class= "diet">Dietary Restrictions: 
+                <label><input class= "input" name= "diet" type= "checkbox" value= " gluten free">Gluten Free</label>
+                <label><input class= "input" name= "diet" type= "checkbox" value= " vegetarian">Vegetarian</label>
+                <label><input class= "input" name= "diet" type= "checkbox" value= " Nut Allegry">Nut Allegry</label>
+            </div>
+            <button type= "submit" class= "button">Submit!</button>
+        </div>
+    </form>
+    <script src= "app.js"></script>
+</body>
